@@ -60,9 +60,9 @@ int main(void)
 		system("PAUSE");
 		exit(EXIT_FAILURE);
 	}
-	if (adults + childs > 40)
+	if (adults + childs > 40 || adults + childs == 0)
 	{
-		printf("本餐廳沒那麼多位置！！\n");
+		printf("人數有錯喔！！\n");
 		system("PAUSE");
 		exit(EXIT_FAILURE);
 	}
